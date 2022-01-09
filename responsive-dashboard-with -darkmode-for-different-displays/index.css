@@ -246,6 +246,11 @@ h2,
 }
 .orders-title {
   color: var(--color-subtitle);
+  padding-top: 1.6rem;
+  padding-bottom: 0.1rem;
+  text-transform: capitalize;
+  margin: 1.5rem;
+  padding-left: 1.5rem;
 }
 .month-employers {
   background-color: var(--background-light);
@@ -424,13 +429,7 @@ svg circle {
   margin-top: 0.1rem;
   color: var(--color-text-light);
 }
-.orders-title {
-  padding-top: 1.6rem;
-  padding-bottom: 0.1rem;
-  text-transform: capitalize;
-  margin: 1.5rem;
-  padding-left: 1.5rem;
-}
+
 .bold-title {
   font-size: 1.6rem;
   font-weight: 600;
@@ -842,7 +841,7 @@ svg circle {
     left: 9.5rem;
   }
 }
-@media screen and (max-width: 941px) {
+@media screen and (max-width: 942px) {
   .nav-bar a {
     padding-left: 1.9rem;
   }
@@ -851,6 +850,9 @@ svg circle {
   }
   .aside {
     left: 8.3rem;
+  }
+  .your {
+    display: none;
   }
 }
 @media screen and (max-width: 931px) {
@@ -883,22 +885,34 @@ svg circle {
   .input-user {
     margin-left: 4rem;
   }
-  .header {
-    width: calc(100vw + 30px);
+  .graphics {
+    gap: 0.7rem;
   }
 }
-@media screen and (max-width: 888px) {
-  .your {
-    display: none;
-  }
-  .header {
-    width: calc(100vw + 22px);
-    min-height: none;
+@media screen and (max-width: 912px) {
+  .graphics {
+    gap: 0.4rem;
   }
 }
-@media screen and (max-width: 909px) {
-  .your {
-    display: none;
+@media screen and (max-width: 906px) {
+  .graphics {
+    gap: 0.2rem;
   }
 }
+@media screen and (max-width: 904px) {
+  .nav-bar a {
+    padding-left: 0.8rem;
+    padding-right: 0.5rem;
+  }
+  input[type="search"] {
+    width: 22rem;
+  }
+  .input-user {
+    margin-left: 4rem;
+  }
+  .graphics {
+    gap: 0.2rem;
+  }
+}
+
 /*-------------------------------Max-width of the page: 888px-------------------*/
