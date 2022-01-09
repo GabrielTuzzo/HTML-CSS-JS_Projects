@@ -1,0 +1,300 @@
+@import url("https://fonts.googleapis.com/css2?family=Fruktur&family=Nunito:wght@300&family=Poppins&family=Raleway:wght@300&family=Zen+Kaku+Gothic+Antique:wght@300&family=Zen+Maru+Gothic:wght@300&display=swap");
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+::selection {
+  background-color: #214ec7;
+}
+
+body {
+  background-color: rgba(117, 107, 107, 0.486);
+  display: flex;
+  font-size: 62.5%;
+  align-content: center;
+  justify-content: center;
+  width: 100vw;
+  font-family: "poppins", Arial, Helvetica, sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.content {
+  position: absolute;
+}
+.content {
+  display: flex;
+  width: calc(100vw / 1.5);
+  align-items: center;
+  height: 450px;
+  border-radius: 4px;
+  background-color: #131929;
+  justify-content: space-between;
+}
+.content::before {
+  content: "";
+  position: absolute;
+  background-color: #0b0d14;
+  height: 100%;
+  width: 40%;
+  border-radius: 10px;
+  left: 0;
+}
+.singIn-js .content::before {
+  left: 60%;
+}
+.first-column {
+  text-align: center;
+  flex: 1 0 auto;
+  z-index: 10;
+  margin-left: 3rem;
+}
+.title {
+  color: #fff;
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.second-column {
+  flex: 2 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 4rem;
+}
+.second-content .second-column {
+  margin-left: -2rem;
+}
+.second-content .first-column {
+  margin-left: -3rem;
+}
+.description {
+  font-size: 1rem;
+  font-weight: 400px;
+  line-height: 3rem;
+  color: rgba(255, 255, 255, 0.781);
+}
+.title-2 {
+  color: #fff;
+  font-size: 1.8rem;
+}
+.btn-primary {
+  padding: 0.6rem;
+  width: 8rem;
+  border-radius: 18px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  color: rgba(235, 227, 227, 0.959);
+  font-family: "poppins" Arial, Helvetica, sans-serif;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 0.6rem;
+  min-width: 100%;
+  width: 8.5rem;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-size: 1rem;
+  font-family: "poppins";
+}
+.label-input [type="email"],
+.label-input [type="text"],
+.label-input [type="password"] {
+  padding-left: 1.7rem;
+  font-size: 18px;
+  color: #dbd2d2;
+  border-bottom: 2px inset #000;
+}
+input[type="email"],
+input[type="password"] {
+  margin-top: 1rem;
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.788);
+}
+.title-2 {
+  padding-top: 0.6rem;
+}
+
+form {
+  padding: 10px 0;
+}
+.or {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 15px;
+  margin: 15px 0 20px;
+}
+.line {
+  width: 105px;
+  height: 2px;
+  background: #aabcd0;
+}
+.or p {
+  padding: 10px;
+  font-size: 1.1rem;
+  color: #aabcd0;
+}
+.fas,
+.far {
+  color: #fff;
+  position: absolute;
+  top: -3px;
+  left: 5px;
+  font-size: 1rem;
+  display: block;
+}
+.label-input {
+  position: relative;
+}
+.list-social-midia {
+  display: flex;
+  list-style: none;
+  transition: 0.3;
+}
+.social-field {
+  margin-left: 2rem;
+  background-color: #525252;
+  padding: 6px 2rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+#face,
+#tw {
+  background-color: #3183ee;
+}
+#face-icon,
+#goggle-icon,
+#tw-icon {
+  color: rgb(0, 0, 0);
+  font-size: 0.9rem;
+}
+#goggle {
+  background: rgba(211, 209, 209, 0.877);
+}
+#face:hover {
+  background-color: #006eff;
+}
+#tw:hover {
+  background-color: #006eff;
+}
+#goggle:hover {
+  background: rgb(255, 255, 255);
+}
+.social-media {
+  margin-right: 2rem;
+}
+.btn-second {
+  padding: 0.6rem;
+  width: 12rem;
+  border-radius: 18px;
+  margin-top: 20px;
+  transform: translateX(4.8rem);
+  border: 1px solid #ffffff;
+  background: transparent;
+  color: #dbd2d2;
+  transition: 0.3s;
+}
+.btn {
+  cursor: pointer;
+}
+.btn-second:hover {
+  color: #000;
+  border: 1px solid #000;
+  background: #cdcecf;
+}
+.btn-second:hover:focus {
+  border: 1px solid #ffffff;
+  background: transparent;
+  color: #dbd2d2;
+}
+.btn {
+  transition: 0.3s;
+}
+.btn-primary:hover {
+  color: #000;
+  border: 1px solid #000;
+  background: #cdcecf;
+}
+
+/*<------------------------------------------------------------------------------>*/
+
+.second-content .first-column {
+  order: 2;
+  z-index: -13;
+}
+.second-content .second-column {
+  order: 1;
+  z-index: -13;
+}
+.singIn-js .first-content .first-column,
+.singIn-js .first-content .second-column {
+  z-index: -1;
+}
+.singIn-js .second-content .second-column {
+  z-index: 12;
+}
+.singIn-js .second-content .first-column,
+.singIn-js .second-content .first-column {
+  z-index: 14;
+}
+.singUp-js .second-content .first-column,
+.singUp-js .second-content .second-column {
+  z-index: -1;
+}
+.singUp-js .first-content .second-column {
+  z-index: 12;
+}
+.singUp-js .first-content .first-column {
+  z-index: 15;
+}
+.singIn-js .content::before {
+  animation: slidein 1s;
+  z-index: 13;
+}
+.singUp-js .content::before {
+  animation: slideout 1s;
+
+  z-index: 13;
+}
+.first-content .second-column {
+  z-index: 12;
+}
+/*Animação-Js*/
+@keyframes slidein {
+  from {
+    left: 0%;
+    width: 40%;
+  }
+
+  to {
+    left: 60%;
+    width: 40%;
+  }
+}
+@keyframes slideout {
+  from {
+    left: 60%;
+    width: 40%;
+  }
+
+  to {
+    left: 0;
+    width: 40%;
+  }
+}

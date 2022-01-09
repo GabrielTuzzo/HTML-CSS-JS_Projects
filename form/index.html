@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Zen+Maru+Gothic:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Zen+Kaku+Gothic+Antique:wght@300&family=Zen+Maru+Gothic:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fruktur&family=Poppins&family=Raleway:wght@300&family=Zen+Kaku+Gothic+Antique:wght@300&family=Zen+Maru+Gothic:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form action="">
+        <fieldset class="field-1">
+            <legend>Register Form</legend>
+            <div class="input-box">            
+                <input type="text" name="nome" id="name" class="input-user" required>
+                <label class="nome" for="name">Name</label>
+                
+               
+            </div>
+            <div class="input-box">            
+                <input type="text" name="cpf" id="cpf" class="input-user" required>
+                <label class="sobre-nome" for="cpf">CPF</label>
+            </div>
+
+            <div class="input-box">            
+                <input type="text" name="email" id="email" class="input-user" required>
+                <label class="email-label" for="email">Email</label>
+            </div>
+            <div class="input-box">            
+                <input type="tel" name="telefone" id="tel" class="input-user" required placeholder="(with DDD and 9)" autocomplete="off">
+                <label class="email-label" for="tel">Phone Number</label>
+                
+            </div>
+
+            <div class="img">
+                <img src="img-2-removebg-preview.png" alt="imagem_form" width="300">
+            </div>
+        </fieldset>
+<!------------------------------------------------Fim do 1° fieldset----------------------------------------------->
+                <br>
+        <fieldset>
+            
+            
+            <legend>Your Review:</legend>
+            <div class="main-1">
+                <label for="selecionar" class="select">
+                How did you hear about us?
+                </label>
+                
+                <select name="hear-about" id="selecionar">
+                    <option value="google">Google</option>
+                    <option value="friends">Friends</option>
+                    <option value="family">Family</option>
+                    <option value="others">Others</option>
+                </select>
+                <br>
+            </div>
+        <p class="main-2">Where would you prefer to work from?    
+            <br><br>
+        <label class="radio">
+            <input type="radio" name="choices" value="Yes" class="input-user2">
+            From home
+        </label>
+        <label class="radio">
+            <input type="radio" name="choices" value="No" class="input-user2">
+            At the company
+        </label>
+        <label class="radio">
+            <input type="radio" name="choices" value="Maybe" class="input-user2">
+            Both
+        </label>
+        </p>
+        <p class="checkbox-title">
+            What would you like to see improved? <span>(Check all that apply)</span>
+     </p>  
+   <div class="checkbox-user">
+     
+         <label
+       ><input
+         name="prefer"
+         value="front-end-projects"
+         type="checkbox"
+         class="input-checkbox"
+               id="front-end"
+       /> Front-end Projects</label
+     >
+     <label>
+       <input
+         name="prefer"
+         value="back-end-projects"
+         type="checkbox"
+         class="input-checkbox"
+       /> Back-end Projects</label
+     >
+     <label
+       ><input
+         name="prefer"
+         value="data-visualization"
+         type="checkbox"
+         class="input-checkbox"
+       /> Data Visualization</label
+     >
+     <label
+       ><input
+         name="prefer"
+         value="challenges"
+         type="checkbox"
+         class="input-checkbox"
+       /> Challenges</label
+     >
+     <label
+       ><input
+         name="prefer"
+         value="open-source-community"
+         type="checkbox"
+         class="input-checkbox"
+       /> Open Source Community</label
+     >
+     <label
+       ><input
+         name="prefer"
+         value="gitter-help-rooms"
+         type="checkbox"
+         class="input-checkbox"
+       /> Gitter help rooms</label
+     >
+     <label
+       ><input
+         name="prefer"
+         value="videos"
+         type="checkbox"
+         class="input-checkbox"
+       /> Videos</label
+     >
+     <label
+       ><input
+         name="prefer"
+         value="city-meetups"
+         type="checkbox"
+         class="input-checkbox"
+       /> City Meetups</label
+     >
+     <label
+    
+     <label
+       ><input
+         name="prefer"
+         value="forum"
+         type="checkbox"
+         class="input-checkbox"
+       /> Forum</label
+     >
+     <label
+       ><input
+         name="prefer"
+         value="additional-courses"
+         type="checkbox"
+         class="input-checkbox"
+       /> Additional Courses</label
+     >
+   </div>
+        <p class="main-3">
+            Why would you like to join in this company?
+                <br>
+            <label for="comments">
+                <textarea name="Comments" id="comments" cols="60" rows="6" contenteditable="true">I would like to join in this company because...</textarea>
+            </label>
+        </p>
+        <label>
+        <input type="checkbox" name="subscribe" checked="checked" class="checkbox">
+        Sing me up for emails updates
+        </label>
+        <br><br>
+        <p class="button-p"><a href="" class="button">Submit Review</a></p>
+        </fieldset>
+        </form>
+    </body>
+</html>

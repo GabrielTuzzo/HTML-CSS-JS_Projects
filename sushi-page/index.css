@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #666;
+  background: rgb(0, 0, 0);
+  background-position: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 1.4em;
+}
+.container {
+  width: 940px;
+  margin: 20px auto 20px auto;
+  border: 2px solid #000;
+  background-color: rgb(218, 218, 218);
+  border-radius: 5px;
+}
+.first-list {
+  list-style: none;
+  padding: 10px;
+  margin-right: 20px;
+  letter-spacing: 0.5px;
+}
+.first-ul {
+  display: flex;
+  margin-left: 22px;
+}
+nav {
+  margin: 0;
+  margin-top: -7px;
+  background-color: rgb(153, 141, 141);
+}
+header {
+  height: 140px;
+  border-radius: 5px;
+}
+h1 {
+  padding: 30px;
+  background-color: rgb(94, 94, 94);
+  color: rgb(235, 235, 235);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.list-1 {
+  color: rgb(235, 235, 235);
+  text-decoration: none;
+}
+
+.list-1:hover {
+  letter-spacing: 1px;
+}
+.list-1 {
+  transition: 0.3s ease;
+}
+.artigo-1,
+.artigo-2 {
+  display: grid;
+  grid-template-columns: 1.04fr 1.04fr;
+  padding-left: 30px;
+}
+
+.p1 {
+  width: 330px;
+  position: absolute;
+  margin-left: 455px;
+  padding-top: 100px;
+  font-size: 18px;
+}
+.p2 {
+  width: 330px;
+  position: absolute;
+  margin-left: 455px;
+  padding-top: 100px;
+  font-size: 18px;
+}
+.h1,
+.h2 {
+  padding-top: 30px;
+  font-size: 20px;
+}
+h3 {
+  padding-top: 10px;
+  font-size: 18px;
+  color: #de6581;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.artigo-1 {
+  padding-bottom: 30px;
+}
+aside {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr 1fr;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+.popular-recipes {
+  width: 290px;
+}
+footer {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  padding-left: 25px;
+  color: #000;
+}
+aside h2 {
+  padding: 30px 0px 10px 0px;
+}
+
+.list-2 {
+  text-decoration: none;
+  list-style: none;
+  color: #e7597a;
+}
+.second-ul {
+  list-style: none;
+  padding-top: 5px;
+}
+.second-list {
+  padding-top: 18px;
+}
+.contato {
+  padding-bottom: 20px;
+}
+
+.p-3 {
+  line-height: 2em;
+}
+figcaption {
+  padding-top: 10px;
+}

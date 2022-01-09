@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expert Calculator</title>
+    <link rel="stylesheet" href="index.css">
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+    crossorigin="anonymous"
+  />
+
+</head>
+<body>
+    <div class="container">
+        <div class="result">
+            <div class="previous-result" id="preview-result"></div>
+            <div class="current-result" id="current-result"></div>
+        </div>
+        <button class="rows-2" onclick="display.deleteAll()">AC</button>
+        <button onclick="display.delete()">C</button>
+        <button class="simbol" value="divide">÷</button>
+        <button class="number">7</button>
+        <button class="number">8</button>
+        <button class="number">9</button>
+        <button class="simbol" value="multiply">x</button>
+        <button class="number">4</button>
+        <button class="number">5</button>
+        <button class="number">6</button>
+        <button class="simbol" value="add">+</button>
+        <button class="number">1</button>
+        <button class="number">2</button>
+        <button class="number">3</button>
+        <button class="simbol" value="subtract">-</button>
+        <button class="number">.</button>
+        <button class="number">0</button>        
+        <button class="rows-2 simbol" id="back-blue" value="equal">=</button>
+
+    </div>
+</body>
+<script src="index.js"></script>
+</html>

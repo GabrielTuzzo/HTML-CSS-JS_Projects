@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Fruktur&family=Nunito:wght@300&family=Poppins&family=Raleway:wght@300&family=Zen+Kaku+Gothic+Antique:wght@300&family=Zen+Maru+Gothic:wght@300&display=swap");
+
+:root {
+  --black-color: #2c2525;
+  --text-primary: #bf8f65;
+  --text-secundary: #f2cda0;
+  --third-text: rgb(219, 207, 207);
+}
+::selection {
+  color: #000;
+  background: var(--black-color);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background: var(--black-color);
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+form {
+  background: rgba(255, 255, 255, 0.04);
+  padding: 32px 64px;
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  border-radius: 3px;
+}
+input:focus {
+  border-bottom: 1px solid var(--third-text);
+}
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: var(--text-secundary);
+}
+
+input,
+button {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  padding: 5px 0;
+  margin-bottom: 13px;
+  border: none;
+  outline: none;
+}
+input {
+  border-bottom: 1px solid var(--text-primary);
+  background: transparent;
+  transition: 0.5s ease-in-out;
+}
+.input-user {
+  position: relative;
+}
+button {
+  background: var(--text-primary);
+}
+input[type="text"],
+input[type="email"] {
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--third-text);
+  margin-bottom: 10px;
+}
+.input-user {
+  margin-bottom: 20px;
+}
+button {
+  color: var(--third-text);
+  padding: 16px 0;
+  font-weight: 600;
+  transition: 0.2s ease-in-out;
+  border-radius: 3px;
+  transition: 0.5s;
+}
+input:focus ~ label,
+input:valid ~ label {
+  margin-top: -22px;
+  font-size: 12px;
+}
+button:hover {
+  cursor: pointer;
+  color: #fff;
+  background: rgb(221, 172, 131);
+}
+
+span.error {
+  display: flex;
+  background-color: rgba(255, 0, 0, 0.2);
+  color: #000;
+}
+
+span.error.active {
+  border: 1px solid red;
+  padding: 0.4em;
+}

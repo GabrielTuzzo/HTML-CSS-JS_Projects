@@ -1,0 +1,230 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+  font-family: "Zen Maru Gothic", sans-serif;
+  font-weight: 600;
+  background: linear-gradient(rgb(221, 213, 213), rgb(226, 225, 225));
+  caret-color: #000;
+}
+::selection {
+  background: rgb(32, 32, 32);
+  color: rgb(240, 235, 235);
+}
+.butao {
+  float: right;
+  margin-left: 7px;
+  margin-top: 15px;
+}
+.main-1,
+.main-2,
+.main-3 {
+  border-bottom: 1px solid rgb(155, 153, 153);
+  border-width: thin;
+  max-width: 330px;
+  margin-bottom: 10px;
+  padding-bottom: 15px;
+}
+.main-3 {
+  max-width: 525px;
+}
+.radio {
+  padding: 5px;
+}
+textarea {
+  margin-top: 10px;
+  margin-left: -5px;
+  font-size: 17px;
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+  color: #000;
+}
+legend {
+  font-weight: 600;
+  font-family: "Zen Maru Gothic", sans-serif;
+  letter-spacing: 0.1em;
+  font-size: 20px;
+  padding: 0 5px;
+}
+
+fieldset {
+  border: 1px solid rgb(133, 129, 129);
+}
+select {
+  padding: 12px;
+  outline: none;
+  border: 1px solid rgb(155, 153, 153);
+  cursor: pointer;
+  border-radius: 3px;
+}
+.main-2 {
+  margin-top: 20px;
+}
+.main-3 {
+  margin-top: 20px;
+}
+.radio {
+  cursor: pointer;
+}
+select:focus {
+  border: 1px solid rgb(0, 0, 0);
+  box-shadow: 1px 1px 1px 1px rgb(180, 179, 179);
+  cursor: pointer;
+}
+select:hover,
+.input-user2:hover {
+  cursor: pointer;
+}
+.checkbox {
+  cursor: pointer;
+}
+textarea {
+  outline: none;
+  border: 1px solid rgba(80, 65, 54, 0.692);
+  padding: 5px 0 0 10px;
+}
+.input-user:focus {
+  border: 2px solid rgb(0, 0, 0);
+  border-width: thin;
+}
+
+form {
+  width: 680px;
+  margin: 20px auto;
+}
+fieldset {
+  padding: 15px;
+  border-radius: 3px;
+}
+input {
+  padding: 13px;
+  border: 1px solid rgb(146, 145, 145);
+  border-radius: 3px;
+  background-color: rgb(248, 248, 239);
+}
+input[type="text"] {
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+}
+input[name="email"] {
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.1em;
+  text-transform: lowercase;
+}
+input[type="tel"] {
+  font-size: 15px;
+}
+input:focus {
+  box-shadow: 1px 1px 1px 1px rgb(199, 198, 198);
+}
+.input-box {
+  position: relative;
+  margin-top: 20px;
+  font-weight: 600;
+  font-family: "Zen Maru Gothic", sans-serif;
+  letter-spacing: 0.1em;
+}
+
+.input-user {
+  width: 50%;
+  outline: none;
+}
+.nome,
+.email-label,
+.sobre-nome {
+  position: absolute;
+  left: 2.16%;
+  top: 20%;
+  transition: 0.4s;
+  background-color: rgb(248, 248, 239);
+  border-radius: 10px;
+}
+
+input:focus + label,
+input:valid + label {
+  top: -20%;
+  font-size: 14px;
+}
+label {
+  padding: 0rem 0.3em;
+}
+.img {
+  max-width: 250px;
+  float: right;
+}
+.field-1 {
+  position: relative;
+}
+img {
+  position: absolute;
+  top: 7%;
+  right: 4%;
+  filter: drop-shadow(3px 3px #aaa);
+}
+.button-p {
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+a {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+  font-family: "poppins", cursive;
+  font-weight: 400;
+}
+.button {
+  border: 1px solid #000;
+  padding: 7px;
+  transition: 0.3s ease-in-out;
+  background: rgb(233, 229, 229);
+  border-radius: 3px;
+}
+.button:hover {
+  filter: drop-shadow(4px 4px rgb(100, 99, 99));
+  padding: 9px;
+  border-radius: 3px;
+}
+.button:focus {
+  background: rgb(51, 50, 50);
+  border: 2px solid rgb(230, 227, 227);
+  color: rgb(231, 227, 227);
+  filter: drop-shadow(1px 1px rgb(241, 239, 239));
+  padding: 7;
+  border-radius: 10px;
+}
+textarea:focus {
+  border: 1px solid #000;
+}
+.main-3 {
+  margin-top: 20px;
+}
+textarea {
+  max-width: 630px;
+  border-radius: 3px;
+  background: rgb(223, 219, 219);
+}
+option,
+select {
+  background: rgb(223, 219, 219);
+}
+input {
+  background: linear-gradient(rgb(218, 214, 214), rgb(226, 225, 225));
+}
+.input-box label {
+  background: linear-gradient(rgb(218, 214, 214), rgb(226, 225, 225));
+}
+.checkbox-user {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  margin-top: 1em;
+  line-height: 2em;
+}

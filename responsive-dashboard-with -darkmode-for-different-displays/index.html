@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+    crossorigin="anonymous">
+    <title>Dashboard | Home</title>
+</head>
+<body>
+    <header id="bar">
+        <div class="title-navbar">
+            <span class="icon title-icon"><i class="fas fa-project-diagram"></i></span>
+            <h1 id="main-title">Dashboard</h1>
+        </div>  
+        <nav>
+        <ul class="nav-bar">
+            <li class="list active">
+                <a href="#">
+                    <span class="icon"><i class="fas fa-home"></i></span>
+                   <span class="bar-text">Home</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon"><i class="fas fa-tasks"></i></span>
+                   <span class="bar-text">Tasks</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon"><i class="fas fa-cogs"></i></span>
+                   <span class="bar-text">Settings</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon"><i class="fas fa-star"></i></span>
+                   <span class="bar-text">Rating</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon"><i class="fas fa-envelope"></i></span>
+                   <span class="bar-text">Contact</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon"><i class="fas fa-exclamation-circle"></i></span>
+                   <span class="bar-text">Report</span>
+                </a>
+            </li>
+        </ul>
+        </nav>
+    </header>
+<!----------------------------------------------------------End of the header-------------------------------------------------------------->
+
+<main id="wrapper">
+<header class="header">
+    <div class="title-month">
+<h1 class="month-selection"><span class="your">Your</span> Month:</h1>
+    <div class="date">
+    <input type="month" id="input-month">
+    </div>
+</div>
+<div class="input-user">
+    <input type="search" placeholder="Search..." id="search" name="search" autocomplete="off">
+    <button class="btn-search"><i class="fas fa-search"></i></button>
+</div>
+<div class="btns">
+    <span class="btn-p"><p><span class="max-width-998px">Page</span> Theme:</p></span>
+    <div class="btns button" id="theme-selector">
+    <span><i class="fas fa-moon" id="dark-btn"></i></span>
+    <span><i class="fas fa-sun selected" id="light-btn"></i></span>
+    </div>
+</div>
+</header>
+<!--------------------------------------------------------------------------------------------------------->
+<div id="page">
+<div class="graphics">
+    <div class="total-sales">
+        <span class="graphics-icons"><i class="fas fa-shopping-cart"></i></span>
+        <div class="center">
+            <div class="texts">
+            <h2>Total Sales:</h2>
+            <h1>45.000,00</h1>
+            </div>
+        <div class="square-progress">
+            <svg>
+                <circle cx = "60" cy = "60" r = "55"></circle>
+            </svg>
+            <div class="value">
+                75%
+            </div>
+        </div>
+        </div>
+        <div class="goal">
+            Goal: 60.000,00
+        </div>
+        <div class="last-month">
+            (In this month)
+        </div>
+    </div>
+<!--------------------------------------------------------------------------------------------------------->
+<div class="total-expenses">
+    <span class="graphics-icons"><i class="fas fa-coins"></i></span>
+    <div class="center">
+        <div class="texts">
+        <h2>Total Expenses:</h2>
+        <h1>5.000,00</h1>
+        </div>
+    <div class="square-progress">
+        <svg>
+            <circle cx = "60" cy = "60" r = "55"></circle>
+        </svg>
+        <div class="value value-expenses">
+            50%
+        </div>
+    </div>
+    </div>
+    <div class="goal">
+        Limit: 10.000,00
+    </div>
+    <div class="last-month">
+        (In this month)
+    </div>
+</div>
+<!-------------------------------------------------------------------------------------------------->
+<div class="total-profit">
+    <span class="graphics-icons"><i class="fas fa-hand-holding-usd"></i></span>
+    <div class="center">
+        <div class="texts">
+        <h2>Total Profit:</h2>
+        <h1>40.000,00</h1>
+        </div>
+    <div class="square-progress">
+        <svg>
+            <circle cx = "60" cy = "60" r = "55"></circle>
+        </svg>
+        <div class="value value-profit">
+            72.8%
+        </div>
+    </div>
+    </div>
+    <div class="goal">
+        Goal: 55.000,00
+    </div>
+    <div class="last-month">
+        (In this month)
+    </div>
+</div>
+</div>
+<!------------------------Start of the aside---------------------------->
+<div class="aside">
+    <div class="clients-grade">
+        <h1 class="title-opinions">Latest clients Opinion</h1>
+        <div class="opinions">
+            <div class="opinion">
+            <span><i class="fas fa-smile-beam"></i></span>
+            <span class="text-title"><a href="">Jesse Pinkman:</a></span>
+            <span class="text"><p>I ordered for mobile phone and arrived 
+                arrived faster than expected, perfect conditions... Love it!</p></span>
+            </div>
+<!--------------------------------------------------------------------------------------------->
+<div class="opinion op-2">
+    <span><i class="fas fa-smile-beam"></i></span>
+    <span class="text-title"><a href="">Walter White:</a></span>
+    <span class="text"><p>The microwave i ordered arrived at a perfect
+        condition. The attendants were so kind to me. grade 10!</p></span>
+    </div>
+<!--------------------------------------------------------------------------------------------->
+<div class="opinion op-3">
+    <span><i class="fas fa-angry"></i></span>
+    <span class="text-title"><a href="">Aaron Paul:</a></span>
+    <span class="text"><p>I've just been waiting for my order for a month, and it didn't arrived yet. Now I will have to refund...</p></span>
+    </div>
+<!--------------------------------------------------------------------------------------------->
+<div class="opinion op-4">
+    <span><i class="fas fa-meh"></i></span>
+    <span class="text-title"><a href="">Bryan Cranston:</a></span>
+    <span class="text"><p>Delivery took longer than expected... The product
+        arrived in good condition. But was scheduled for 1 week ago.</p></span>
+    </div>
+        </div>
+    <a href="" class="all-critics">See all the critics</a>
+    </div>
+<!------------------------------------------------------------------------------------------>
+<div class="month-employers_div">
+<h1 class="title-aside">Best Month Employers</h1>
+    <div class="month-employers first-one">
+<div class="users">
+    <span><i class="fab fa-reddit-alien" id="icon-reddit-01"></i></span>
+    <p class="employer-name"><a href="#">Alex J. P.</a></p> 
+    <span class="star-1"><i class="fas fa-star"></i></span>
+    <span><i class="fas fa-star"></i></span>
+    <span><i class="fas fa-star"></i></span>
+    <span><i class="fas fa-star"></i></span>
+    <span><i class="fas fa-star"></i></span>
+</div>
+<div class="about">
+    <span class="sells">Sells: 145 itens</span>
+    <span class="position">#1 Employer of the month</span>
+</div>
+    </div>
+<!------------------------------------------------------------->
+<div class="month-employers">
+    <div class="users">
+        <span><i class="fab fa-reddit-alien" id="icon-reddit-02"></i></span>
+        <p class="employer-name"><a href="#">Alice A. T.</a></p> 
+        <span class="star-1"><i class="fas fa-star"></i></span>
+        <span><i class="fas fa-star"></i></span>
+        <span><i class="fas fa-star"></i></span>
+        <span><i class="fas fa-star"></i></span>
+        <span><i class="fas fa-star"></i></span>
+    </div>
+    <div class="about">
+        <span class="sells">Sells: 132 itens</span>
+        <span class="position">#2 Employer of the month</span>
+    </div>
+        </div>
+<!-------------------------------------------------------------->
+<div class="month-employers">
+    <div class="users">
+        <span><i class="fab fa-reddit-alien" id="icon-reddit-03"></i></span>
+        <p class="employer-name"><a href="#">Julius B. H.</a></p> 
+        <span class="star-1"><i class="fas fa-star"></i></span>
+        <span><i class="fas fa-star"></i></span>
+        <span><i class="fas fa-star"></i></span>
+        <span><i class="fas fa-star"></i></span>
+        <span><i class="fas fa-star"></i></span>
+    </div>
+    <div class="about">
+        <span class="sells">Sells: 125 itens</span>
+        <span class="position">#3 Employer of the month</span>
+    </div>
+        </div>
+<!------------------------------------------------------------->
+<div class="month-employers">
+    <div class="users">
+        <span><i class="fab fa-reddit-alien" id="icon-reddit-04"></i></span>
+        <p class="employer-name"><a href="#">Dexter U. O.</a></p> 
+        <span class="star-1"><i class="fas fa-star"></i></span>
+        <span><i class="fas fa-star"></i></span>
+        <span><i class="fas fa-star"></i></span>
+        <span><i class="fas fa-star"></i></span>
+        <span><i class="fas fa-star-half"></i></span>
+    </div>
+    <div class="about">
+        <span class="sells">Sells: 118 itens</span>
+        <span class="position">#4 Employer of the month</span>
+    </div>
+        </div>
+<!--------------------------------------------------------------->
+<div class="month-employers last-one">
+    <div class="users">
+        <span><i class="fab fa-reddit-alien" id="icon-reddit-05"></i></span>
+        <p class="employer-name"><a href="#">Diana F. S.</a></p> 
+        <span class="star-1"><i class="fas fa-star"></i></span>
+        <span><i class="fas fa-star"></i></span>
+        <span><i class="fas fa-star"></i></span>
+        <span><i class="fas fa-star"></i></span>
+        <span><i class="fas fa-star-half"></i></span>
+    </div>
+    <div class="about">
+        <span class="sells">Sells: 112 itens</span>
+        <span class="position last-position">#5 Employer of the month</span>
+    </div>
+        </div>
+        </div>
+<a href="" class="all-employers">See all the employers</a>
+</div>
+<!---------------------------------------------------------------------------------------->
+<h1 class="orders-title">
+    biggest sales of the month</h1>
+<div class="orders">
+    <span class="bold-title">Product Name</span>
+    <span class="bold-title">Product number</span>
+    <span class="bold-title">Sold</span>
+    <span class="bold-title">price</span>
+        <p class="orders-p">Robot Vacuum Cleaner</p>
+        <p class="orders-p">8123</p>
+        <p class="orders-p">145</p>
+        <p class="orders-p">$170</p>
+
+<!------------------------------------------------------------------>
+        <span class="bold-title">Product Name</span>
+        <span class="bold-title">Product number</span>
+        <span class="bold-title">Sold</span>
+        <span class="bold-title">price</span>
+            <p class="orders-p">Mine Drone</p>
+            <p class="orders-p">7237</p>
+            <p class="orders-p">128</p>
+            <p class="orders-p">$120</p>
+<!---------------------------------------------------------------->
+        <span class="bold-title">Product Name</span>
+        <span class="bold-title">Product number</span>
+        <span class="bold-title">Sold</span>
+        <span class="bold-title">price</span>
+            <p class="orders-p">Indoor Security Camera</p>
+            <p class="orders-p">2018</p>
+            <p class="orders-p">114</p>
+            <p class="orders-p">$80</p>
+<!----------------------------------------------------------------->
+        <span class="bold-title">Product Name</span>
+        <span class="bold-title">Product number</span>
+        <span class="bold-title">Sold</span>
+        <span class="bold-title">price</span>
+            <p class="orders-p">Smart Alarm Clocks</p>
+            <p class="orders-p">9828</p>
+            <p class="orders-p">105</p>
+            <p class="orders-p">$35</p>
+<!------------------------------------------------------------------->
+        <span class="bold-title">Product Name</span>
+        <span class="bold-title">Product number</span>
+        <span class="bold-title">Sold</span>
+        <span class="bold-title">price</span>
+            <p class="orders-p">Coffee Maker Machine</p>
+            <p class="orders-p">1013</p>
+            <p class="orders-p">99</p>
+            <p class="orders-p">$85</p>
+<!--------------------------------------------------------------------->
+        <span class="bold-title">Product Name</span>
+        <span class="bold-title">Product number</span>
+        <span class="bold-title">Sold</span>
+        <span class="bold-title">price</span>
+            <p class="orders-p p-last">Laptop Cooling Pad</p>
+            <p class="orders-p p-last">6058</p>
+            <p class="orders-p p-last">91</p>
+            <p class="orders-p p-last">$20</p>
+</div>
+<span class="see-All"><a href="#" class="see-all-a">See All</a></span>
+<!------------------------------------------------------------------------------->
+<h1 class="orders-title">
+    lowest sales of the month</h1>
+<div class="orders">
+    <span class="bold-title">Product Name</span>
+    <span class="bold-title">Product number</span>
+    <span class="bold-title">Sold</span>
+    <span class="bold-title">price</span>
+        <p class="orders-p">Microwave Oven</p>
+        <p class="orders-p">4318</p>
+        <p class="orders-p">40</p>
+        <p class="orders-p">$110</p>
+
+<!------------------------------------------------------------------>
+        <span class="bold-title">Product Name</span>
+        <span class="bold-title">Product number</span>
+        <span class="bold-title">Sold</span>
+        <span class="bold-title">price</span>
+            <p class="orders-p">Smart Home Speakers</p>
+            <p class="orders-p">3498</p>
+            <p class="orders-p">32</p>
+            <p class="orders-p">$170</p>
+<!---------------------------------------------------------------->
+        <span class="bold-title">Product Name</span>
+        <span class="bold-title">Product number</span>
+        <span class="bold-title">Sold</span>
+        <span class="bold-title">price</span>
+            <p class="orders-p">Networking Device</p>
+            <p class="orders-p">2128</p>
+            <p class="orders-p">30</p>
+            <p class="orders-p">$145</p>
+<!----------------------------------------------------------------->
+        <span class="bold-title">Product Name</span>
+        <span class="bold-title">Product number</span>
+        <span class="bold-title">Sold</span>
+        <span class="bold-title">price</span>
+            <p class="orders-p">DVD player</p>
+            <p class="orders-p">2798</p>
+            <p class="orders-p">27</p>
+            <p class="orders-p">$75</p>
+<!------------------------------------------------------------------->
+        <span class="bold-title">Product Name</span>
+        <span class="bold-title">Product number</span>
+        <span class="bold-title">Sold</span>
+        <span class="bold-title">price</span>
+            <p class="orders-p">Water purifier</p>
+            <p class="orders-p">1228</p>
+            <p class="orders-p">24</p>
+            <p class="orders-p">$80</p>
+<!--------------------------------------------------------------------->
+        <span class="bold-title">Product Name</span>
+        <span class="bold-title">Product number</span>
+        <span class="bold-title">Sold</span>
+        <span class="bold-title">price</span>
+            <p class="orders-p p-last">Walkie-talkie</p>
+            <p class="orders-p p-last">5729</p>
+            <p class="orders-p p-last">19</p>
+            <p class="orders-p p-last">$15</p>
+</div>
+<span class="see-All see-All-2"><a href="#" class="see-all-a">See All</a></span>
+</main>
+</div>
+<!------------------------------------------End of the Main------------------------------->
+<script src="index.js"></script>
+</body>
+</html>

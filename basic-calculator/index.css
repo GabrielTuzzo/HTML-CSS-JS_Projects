@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Fruktur&family=Nunito:wght@300&family=Poppins&family=Raleway:wght@300&family=Zen+Kaku+Gothic+Antique:wght@300&family=Zen+Maru+Gothic:wght@300&display=swap");
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "poppins", Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: rgb(232, 241, 248);
+}
+html {
+  font-size: 62.5%;
+}
+.container {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: repeat(4, 80px);
+  grid-template-rows: minmax(90px, auto) repeat(5, 80px);
+  padding: 10px;
+  grid-gap: 3px;
+  min-height: 100vh;
+}
+.rows-2 {
+  grid-column: span 2;
+}
+.result {
+  background-color: rgba(0, 0, 0, 0.1);
+  grid-column: 1 / 5;
+  grid-column: 100px;
+  border-radius: 3px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+  word-break: break-all;
+  word-wrap: break-word;
+  color: rgba(238, 238, 238, 0.904);
+}
+button {
+  cursor: pointer;
+  outline: none;
+  border: rgba(0, 0, 0, 0.6);
+  border-radius: 3px;
+  transition: 0.3s ease-in;
+  background-color: rgba(49, 47, 47, 0.507);
+  color: rgb(232, 241, 248);
+  font-size: 2rem;
+}
+button:hover {
+  background-color: rgb(80, 74, 74);
+}
+.current-result {
+  padding-right: 10px;
+  color: rgb(236, 229, 229);
+}

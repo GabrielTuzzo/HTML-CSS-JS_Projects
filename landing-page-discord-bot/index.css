@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Fruktur&family=Nunito:wght@300&family=Poppins&family=Raleway:wght@300&family=Zen+Kaku+Gothic+Antique:wght@300&family=Zen+Maru+Gothic:wght@300&display=swap");
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", Arial, Helvetica, sans-serif;
+}
+::selection {
+  background-color: #374d88;
+}
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+::-webkit-scrollbar {
+  width: 10.5px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.25);
+  background-color: #050505d3;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.4);
+}
+::-webkit-scrollbar-thumb:hover {
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.5);
+}
+/*----------------------------------------------------------------*/
+body {
+  background: linear-gradient(40.15deg, #1d1d1d, #050505d3);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 0;
+  border-bottom: 1px solid rgba(196, 196, 196, 0.336);
+  padding-bottom: 1.3rem;
+}
+.img-logo {
+  width: 50px;
+}
+.header-img {
+  padding-top: 0.5rem;
+}
+.comments {
+  color: rgba(216, 216, 216, 0.932);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2.5rem;
+}
+ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+.main-text {
+  line-height: 4rem;
+}
+a {
+  text-decoration: none;
+  color: rgba(216, 216, 216, 0.932);
+  font-size: 1.7rem;
+  text-transform: capitalize;
+  transition: 0.2s ease-in-out;
+}
+a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+li {
+  margin-left: 2rem;
+}
+h1 {
+  font-size: 2.4rem;
+  color: rgba(216, 216, 216, 0.932);
+}
+h2 {
+  font-size: 1.8rem;
+  color: rgba(216, 216, 216, 0.932);
+}
+.img {
+  width: 300px;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1rem;
+}
+.btn {
+  padding: 0.8rem 4rem;
+  border-radius: 10px;
+  border: none;
+  font-weight: 400;
+  font-size: 1.7rem;
+  background-color: rgb(226, 226, 226);
+  margin-top: 0.8rem;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+}
+p {
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+}
+.title-commenst {
+  font-size: 2.3rem;
+  border-top: 1px solid rgb(117, 117, 117);
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+  text-transform: capitalize;
+  font-family: "poppins", Arial, Helvetica, sans-serif;
+}
+.p-3 {
+  padding-bottom: 5rem;
+  color: rgb(184, 184, 184);
+  font-weight: 600;
+  font-size: 1.8rem;
+  padding-top: 1rem;
+  letter-spacing: 0.1rem;
+}
+footer {
+  border-top: 1px solid rgb(117, 117, 117);
+}
+.footer-title {
+  letter-spacing: 0.1rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  text-align: center;
+  color: rgb(180, 180, 180);
+}
+.footer-text {
+  letter-spacing: 0.2rem;
+  cursor: pointer;
+  font-size: 2.5rem;
+  color: rgb(255, 255, 255);
+}
