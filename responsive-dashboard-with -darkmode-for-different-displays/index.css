@@ -269,7 +269,7 @@ h2,
 }
 .aside {
   position: absolute;
-  right: 1rem;
+  right: 3rem;
   top: 9.4rem;
 }
 .first-one {
@@ -891,12 +891,12 @@ svg circle {
 }
 @media screen and (max-width: 912px) {
   .graphics {
-    gap: 0.4rem;
+    gap: 0.6rem;
   }
 }
-@media screen and (max-width: 906px) {
+@media screen and (max-width: 908px) {
   .graphics {
-    gap: 0.2rem;
+    gap: 0.5rem;
   }
   .month-employers {
     width: 805px;
