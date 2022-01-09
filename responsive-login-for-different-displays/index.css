@@ -368,8 +368,3 @@ footer {
     display: none;
   }
 }
-@media (max-height: 570px) {
-  .container {
-    height: 75vh;
-  }
-}
