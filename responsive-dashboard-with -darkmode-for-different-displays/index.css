@@ -898,6 +898,9 @@ svg circle {
   .graphics {
     gap: 0.2rem;
   }
+  .month-employers {
+    width: 805px;
+  }
 }
 @media screen and (max-width: 904px) {
   .nav-bar a {
