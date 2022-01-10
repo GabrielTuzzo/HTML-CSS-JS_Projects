@@ -914,7 +914,55 @@ svg circle {
     margin-left: 4rem;
   }
   .graphics {
-    gap: 0.2rem;
+    gap: 1rem;
+    grid-template-columns: 300px 2fr;
+  }
+  .bar-text {
+    display: inline-block;
+  }
+  .total-profit {
+    width: 60rem;
+  }
+  .aside {
+    top: 200rem;
+    left: 21rem;
+  }
+  .month-employers {
+    width: 570px;
+  }
+  .orders {
+    display: grid;
+    grid-template-columns: 0.475fr 0.335fr 0.295fr 0.3fr;
+    background-color: var(--background-light);
+    border-radius: 10px;
+    padding: 1rem;
+    max-width: 825px;
+    box-shadow: var(--box-shadow);
+    transition: 0.3s ease;
+    margin: 1.5rem;
+    padding-left: 1.5rem;
+  }
+  .orders-p {
+    font-size: 1.4rem;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    color: var(--text-gray);
+    border-bottom: var(--border-bottom);
+    height: 3.3rem;
+    padding-top: 0.3rem;
+    padding-left: 2rem;
+  }
+  .opinions {
+    max-width: 570px;
+  }
+  .total-profit {
+    background-color: var(--background-light);
+    padding: 2rem 1rem 2rem 2rem;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+    transition: 0.3s ease;
+    max-height: 27rem;
   }
 }
 
