@@ -1,0 +1,463 @@
+/*-----------------------Media querys----------------------*/
+
+@media screen and (max-width: 1200px) {
+  .aside {
+    left: 21rem;
+    margin-left: 1.5rem;
+    top: 145rem;
+  }
+  .header {
+    width: 100%;
+    position: absolute;
+    left: 0;
+  }
+  #page {
+    margin-top: 11rem;
+  }
+  #page {
+    margin-left: 3rem;
+  }
+  .all-employers {
+    padding-bottom: 5rem;
+  }
+  .opinions {
+    max-width: 840px;
+  }
+  .month-employers {
+    width: 840px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .about {
+    padding-left: 3rem;
+    display: flex;
+    flex-direction: row;
+  }
+  .users {
+    margin-top: 0.5rem;
+  }
+  .position {
+    margin-top: 1rem;
+    border: none;
+    padding-left: 4rem;
+  }
+  .sells {
+    margin-top: 1rem;
+    margin-right: 5rem;
+    padding-right: 3rem;
+  }
+  .fa-star {
+    padding-right: 0.25rem;
+  }
+  .month-employers {
+    border-bottom: var(--border-bottom);
+  }
+  .last-one {
+    border: none;
+  }
+  .input-user {
+    margin-left: 1.5rem;
+  }
+  .date {
+    padding: 1rem 0.5rem;
+  }
+  input[type="search"] {
+    width: 32rem;
+  }
+  .title-navbar {
+    display: none;
+  }
+  .btns {
+    margin-left: 1.5rem;
+  }
+  .see-All {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    margin-left: calc(0rem);
+  }
+  .nav-bar {
+    margin-top: 11rem;
+  }
+}
+@media (max-width: 1150px) {
+  .opinions {
+    max-width: 830px;
+  }
+}
+@media screen and (max-width: 1086px) {
+  .header {
+    width: 100% + 10px;
+  }
+  #page {
+    margin-left: 1rem;
+  }
+  .aside {
+    left: 19rem;
+  }
+}
+@media screen and (max-width: 1065px) {
+  .month-employers {
+    width: 830px;
+  }
+}
+@media screen and (max-width: 1051px) {
+  .header {
+    width: 100%;
+    position: absolute;
+    left: 0;
+  }
+  .aside {
+    left: 20rem;
+  }
+  .title-navbar {
+    display: none;
+  }
+  #page {
+    margin-top: 11rem;
+  }
+  .nav-bar {
+    margin-top: 11rem;
+  }
+
+  .icon {
+    padding-right: 0.5rem;
+  }
+  .nav-bar a {
+    padding-left: 2rem;
+  }
+  .btn-p {
+    display: flex;
+  }
+  .month-employers {
+    width: 815px;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .month-employers {
+    width: 820px;
+  }
+  .aside {
+    left: 18rem;
+  }
+}
+@media screen and (max-width: 1031px) {
+  .month-employers {
+    width: 825px;
+  }
+  .aside {
+    left: 17rem;
+  }
+}
+@media screen and (max-width: 1021px) {
+  .month-employers {
+    width: 820px;
+  }
+  .aside {
+    left: 16rem;
+  }
+}
+@media screen and (max-width: 1011px) {
+  .month-employers {
+    width: 820px;
+  }
+  .aside {
+    left: 15rem;
+  }
+}
+@media screen and (max-width: 1001px) {
+  .month-employers {
+    width: 815px;
+  }
+  .aside {
+    left: 14.5rem;
+  }
+}
+@media screen and (max-width: 998px) {
+  .bar-text {
+    display: none;
+  }
+  .icon {
+    font-size: 2.5rem;
+    margin-bottom: 4rem;
+  }
+  .nav-bar a {
+    text-decoration: none;
+    color: var(--color-text-light);
+    display: flex;
+    padding-left: 3rem;
+    font-size: 1.7rem;
+    height: 6.3rem;
+    display: block;
+    padding-top: 1.5rem;
+  }
+  .max-width-998px {
+    display: none;
+  }
+}
+@media screen and (max-width: 991px) {
+  .aside {
+    left: 13rem;
+  }
+}
+@media screen and (max-width: 981px) {
+  .aside {
+    left: 12.5rem;
+  }
+}
+@media screen and (max-width: 971px) {
+  .aside {
+    left: 11.5rem;
+  }
+}
+@media screen and (max-width: 961px) {
+  .aside {
+    left: 10.5rem;
+  }
+}
+
+@media screen and (max-width: 951px) {
+  .nav-bar a {
+    padding-left: 2.1rem;
+  }
+  .btns {
+    margin-right: 2rem;
+  }
+  input[type="search"] {
+    width: 27rem;
+  }
+  .aside {
+    left: 9.5rem;
+  }
+}
+@media screen and (max-width: 942px) {
+  .nav-bar a {
+    padding-left: 1.9rem;
+  }
+  input[type="search"] {
+    width: 28rem;
+  }
+  .aside {
+    left: 8.3rem;
+  }
+  .your {
+    display: none;
+  }
+}
+@media screen and (max-width: 931px) {
+  .nav-bar a {
+    padding-left: 1.5rem;
+  }
+  .aside {
+    left: 7rem;
+  }
+}
+@media screen and (max-width: 925px) {
+  .nav-bar a {
+    padding-left: 1.1rem;
+  }
+  .max-width {
+    display: none;
+  }
+  .aside {
+    left: 6.5rem;
+  }
+}
+@media screen and (max-width: 918px) {
+  .nav-bar a {
+    padding-left: 0.8rem;
+    padding-right: 0.5rem;
+  }
+  input[type="search"] {
+    width: 22rem;
+  }
+  .input-user {
+    margin-left: 4rem;
+  }
+  .graphics {
+    gap: 0.7rem;
+  }
+}
+@media screen and (max-width: 912px) {
+  .graphics {
+    gap: 0.6rem;
+  }
+}
+@media screen and (max-width: 908px) {
+  .graphics {
+    gap: 0.5rem;
+  }
+  .month-employers {
+    width: 805px;
+  }
+}
+@media screen and (max-width: 904px) {
+  .nav-bar a {
+    padding-left: 0.8rem;
+    padding-right: 0.5rem;
+  }
+  input[type="search"] {
+    width: 22rem;
+  }
+  .input-user {
+    margin-left: 4rem;
+  }
+  .graphics {
+    gap: 1rem;
+    grid-template-columns: 300px 2fr;
+  }
+  .bar-text {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+  }
+  .total-profit {
+    width: 58rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .square-progress {
+    margin: 0 2rem;
+  }
+  .aside {
+    top: 200rem;
+    left: 21rem;
+  }
+  .month-employers {
+    width: 570px;
+  }
+  .orders {
+    display: grid;
+    grid-template-columns: 0.685fr 13rem 0.354fr 0.386fr;
+    padding: 1rem;
+    max-width: 825px;
+    margin: 1.5rem;
+    padding-left: 1.5rem;
+  }
+  .orders-p {
+    font-size: 1.4rem;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 3rem;
+    color: var(--text-gray);
+    border-bottom: var(--border-bottom);
+    height: 3.3rem;
+    padding-top: 0.3rem;
+  }
+  .opinions {
+    max-width: 570px;
+  }
+
+  .total-profit .center {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+  }
+  .bottom {
+    padding-right: 3.5rem;
+  }
+  .graphics .total-expenses {
+    max-width: 27rem;
+  }
+  .icon {
+    font-size: 2.1rem;
+    margin-bottom: 4rem;
+  }
+}
+@media screen and (max-width: 888px) {
+  .aside {
+    left: 20rem;
+  }
+}
+@media screen and (max-width: 838px) {
+  .btn-p {
+    display: none;
+  }
+  .btns {
+    margin-left: 4rem;
+  }
+}
+@media screen and (max-width: 815px) {
+  .graphics {
+    gap: 1rem;
+    grid-template-columns: 300px;
+  }
+  .month-employers {
+    width: 560px;
+  }
+  .btns {
+    margin-left: 3rem;
+  }
+  .total-expenses,
+  .total-sales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .total-expenses {
+    min-width: 55rem;
+  }
+  .total-sales,
+  .total-profit {
+    width: 55rem;
+  }
+  .total-expenses .center,
+  .total-sales .center {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+  }
+  .bottom {
+    padding-right: 3.5rem;
+  }
+  .square-progress {
+    margin: 0;
+  }
+  .orders {
+    grid-template-columns: 1.5fr 13rem 0.754fr 0.886fr;
+  }
+}
+@media screen and (max-width: 806px) {
+  .orders {
+    grid-template-columns: 2.5fr 1.7fr 1.3fr 1.4fr;
+  }
+}
+@media screen and (max-width: 790px) {
+  .month-employers {
+    width: 550px;
+  }
+  .position {
+    padding-right: 3rem;
+  }
+}
+@media screen and (max-width: 780px) {
+  .month-employers {
+    width: 540px;
+  }
+  .total-sales,
+  .total-profit {
+    width: 55rem;
+  }
+  .total-expenses {
+    min-width: 55rem;
+  }
+  .orders {
+    grid-template-columns: 2.5fr 1.7fr 1.3fr 1.4fr;
+  }
+  .orders-p {
+    padding-left: 2.5rem;
+  }
+  .aside {
+    left: 16rem;
+  }
+}
+@media screen and (max-width: 770px) {
+  input[type="search"] {
+    width: 20rem;
+  }
+}
+/*max width page: 750px*/
