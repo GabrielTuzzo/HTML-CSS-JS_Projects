@@ -25,6 +25,7 @@
   --color-background-input: rgb(247, 247, 247);
   --color-fa-star: #ffee00;
   --color-search-focus: #fff;
+  --selection-background-color: #5d8de7;
 }
 
 .dark-theme {
@@ -47,7 +48,8 @@
   --color-see-all: #8f8f8f;
   --color-fa-star: #bdb000;
   --color-background-input: rgb(20, 20, 20);
-  --color-search-focus: rgb(34, 34, 34);
+  --color-search-focus: rgb(0, 0, 0);
+  --selection-background-color: #5065a5;
 }
 
 /*-------------------------------------------------------------------------------*/
@@ -69,7 +71,7 @@ body {
   display: flex;
 }
 ::selection {
-  background-color: #7790d4;
+  background-color: var(--selection-background-color);
 }
 html {
   scroll-behavior: smooth;
