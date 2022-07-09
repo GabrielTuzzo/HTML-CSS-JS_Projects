@@ -15,7 +15,7 @@ body {
   margin: 0 auto;
   background-color: rgba(var(--d87, 255, 255, 255), 1);
   border-radius: 1px;
-  margin-top: 34px;
+  margin-top: 35px;
   border: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
   padding: 30px 40px 20px;
 }

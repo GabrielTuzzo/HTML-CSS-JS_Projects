@@ -16,16 +16,16 @@ body {
   align-items: center;
 }
 .fc {
-  max-width: 300px;
-  height: 106px;
   display: block;
-  margin: -28px;
+  margin: -78px;
+  width: 500px;
+  height: 300px;
 }
 h2 {
   font-size: 28px;
   font-weight: 400;
   max-width: 500px;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 form {
   background-color: #fff;

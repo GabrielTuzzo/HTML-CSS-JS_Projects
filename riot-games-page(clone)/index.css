@@ -56,21 +56,20 @@ body {
 
 .search-input {
   font-weight: 1000;
-  text-transform: uppercase;
   color: #fff;
   outline: none;
   text-align: start;
   appearance: auto;
   padding: 9px;
-  width: 130px;
+  width: 150px;
   text-rendering: auto;
-  letter-spacing: normal;
+  letter-spacing: 0.8px;
   word-spacing: normal;
   text-indent: 0px;
   text-shadow: none;
   -webkit-rtl-ordering: logical;
   cursor: text;
-  font: 400 13.3333px Arial;
+  font: 400 13.3px Arial;
   background-color: rgb(63, 63, 63);
   border: none;
   border-bottom-left-radius: 30px;
@@ -84,6 +83,7 @@ body {
 }
 .search-input[type="text"] {
   padding-left: 20px;
+  text-transform: uppercase;
 }
 .butao {
   background: none;
@@ -112,10 +112,10 @@ body {
 
 .img-1 {
   margin-left: 36px;
-  border-collapse: separate;
 }
 .imagens {
-  min-width: 1270px;
+  display: flex;
+  justify-content: center;
 }
 .foto_Runeterra {
   margin-left: 15px;
@@ -139,35 +139,34 @@ body {
   transition: all 0.2s ease-out;
   cursor: pointer;
   filter: drop-shadow(2px 4px 8px) rgb(233, 232, 232);
+  opacity: 0.99;
 }
 .foto_lol {
   position: relative;
   margin-bottom: 10px;
   border: 11px solid rgb(233, 232, 232);
-  box-shadow: 400px 0 rgb(233, 232, 232);
+  box-shadow: 5px 0 rgb(233, 232, 232);
 }
 .foto_wild-rift {
   position: relative;
   margin-bottom: 10px;
   border: 11px solid rgb(233, 232, 232);
   margin-right: 30px;
-  border-collapse: collapse;
-  box-shadow: 0px 0px 20px 0px rgb(233, 232, 232);
 }
 .foto_tft:hover {
-  opacity: 0.9;
+  opacity: 1;
 }
 .foto_lol:hover {
-  opacity: 0.9;
+  opacity: 1;
 }
 .foto_valorant:hover {
-  opacity: 0.9;
+  opacity: 1;
 }
 .foto_wild-rift:hover {
-  opacity: 0.9;
+  opacity: 1;
 }
 .foto_Runeterra:hover {
-  opacity: 0.9;
+  opacity: 1;
 }
 .img-1 {
   background-color: rgb(233, 232, 232);
@@ -269,6 +268,7 @@ p {
   background-color: #252423;
   height: 220px;
   position: relative;
+  width: 100%;
 }
 .list-2 {
   display: flex;
@@ -391,17 +391,18 @@ hr {
 .background-1 {
   background-image: url(background-1.png);
   position: absolute;
-  top: 12.25%;
-  bottom: 7%;
+  top: 0%;
+  bottom: 10%;
   width: 100%;
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 .voltar-topo {
   max-width: 150px;
   float: right;
   margin-right: 50px;
-  margin-top: 9px;
+  margin-top: 10px;
   color: #8a8887;
   transition: all 0.3s ease-out;
   text-transform: uppercase;
@@ -411,9 +412,9 @@ hr {
   position: relative;
 }
 
-.teste0 {
+.icon-volteparacima {
   position: absolute;
-  right: 2.4%;
+  right: 2rem;
   top: 72.5%;
 }
 a > i {
@@ -424,4 +425,163 @@ a > i:hover {
 }
 .voltar-topo:hover {
   color: rgb(219, 203, 203);
+}
+.voltar-topo > .icon-volteparacima:hover{
+  color: rgb(184, 55, 55);
+}
+
+/*----------------------------------------------------------------------*/
+
+@media screen and (max-width: 1350px) {
+  .foto_lol,
+  .foto_wild-rift,
+  .foto_Runeterra,
+  .foto_tft {
+    width: 550px;
+    height: 355px;
+   
+  }
+  .foto_tft {
+    width: 529px;
+  }
+  .foto_Runeterra {
+    width: 530px;
+    height: 355px;
+  }
+}
+@media screen and (max-width: 1335px) {
+  .lista-2 a {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .search-input {
+    margin-left: 20%;
+  }
+  .parágrafo {
+    margin-left: 5%;
+  }
+}
+@media screen and (max-width: 1550px) {
+  .search-input {
+    width: 130px;
+  }
+}
+@media screen and (max-width: 1190px) {
+  .foto_lol,
+  .foto_wild-rift,
+  .foto_Runeterra,
+  .foto_tft {
+    width: 530px;
+    height: 355px;
+   
+  }
+  .foto_tft {
+    width: 509px;
+  }
+  .foto_Runeterra {
+    width: 510px;
+  }
+  .foto_valorant {
+    width: 590px;
+  }
+  
+}
+@media screen and (max-width: 1150px) {
+  .foto_lol,
+  .foto_wild-rift,
+  .foto_Runeterra,
+  .foto_tft {
+    width: 510px;
+    height: 345px;
+   
+  }
+  .foto_tft {
+    width: 489px;
+  }
+  .foto_Runeterra {
+    width: 490px;
+  }
+  .foto_valorant {
+    width: 570px;
+    height: 345px;
+  }
+  .parágrafo {
+    margin-left: 3%;
+  }
+}
+@media screen and (max-width: 1108px) {
+  .foto_lol,
+  .foto_wild-rift,
+  .foto_Runeterra,
+  .foto_tft {
+    width: 490px;
+    height: 345px;
+   
+  }
+  .foto_tft {
+    width: 469px;
+  }
+  .foto_Runeterra {
+    width: 470px;
+  }
+}
+@media screen and (max-width: 1068px) {
+  .foto_lol,
+  .foto_wild-rift,
+  .foto_Runeterra,
+  .foto_tft {
+    width: 470px;
+    height: 345px;
+   
+  }
+  .foto_tft {
+    width: 449px;
+  }
+  .foto_Runeterra {
+    width: 450px;
+  }
+  .foto_valorant {
+    width: 550px;
+    height: 335px;
+  }
+  .search-input {
+    margin-left: 10%;
+  }
+}
+@media screen and (max-width: 1028px) {
+  .foto_lol,
+  .foto_wild-rift,
+  .foto_Runeterra,
+  .foto_tft {
+    width: 450px;
+    height: 335px;
+   
+  }
+  .foto_tft {
+    width: 429px;
+  }
+  .foto_Runeterra {
+    width: 430px;
+  }
+}
+@media screen and (max-width: 988px) {
+  .foto_lol,
+  .foto_wild-rift,
+  .foto_Runeterra,
+  .foto_tft {
+    width: 430px;
+    height: 325px;
+   
+  }
+  .foto_tft {
+    width: 409px;
+  }
+  .foto_Runeterra {
+    width: 410px;
+  }
+  .foto_valorant {
+    width: 510px;
+    height: 325px;
+  }
 }

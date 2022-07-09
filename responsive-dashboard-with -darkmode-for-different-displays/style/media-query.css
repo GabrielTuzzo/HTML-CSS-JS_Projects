@@ -1,6 +1,6 @@
 /*-----------------------Media querys----------------------*/
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1350px) {
   .aside {
     left: 21rem;
     margin-left: 1.5rem;
